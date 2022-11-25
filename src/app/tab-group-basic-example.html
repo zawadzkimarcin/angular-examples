@@ -1,0 +1,37 @@
+<mat-grid-list cols="3" rowHeight="2:1">
+  <mat-grid-tile colspan="2">
+    <mat-tab-group>
+      <mat-tab label="Calculation Parameters">
+        Calculation Parameters Content
+      </mat-tab>
+      <mat-tab label="Trend Plots"> Trend Plots Content </mat-tab>
+      <mat-tab label="Smart Filter"> Smart Filter Content </mat-tab>
+      <mat-tab label="Rating Correction"> Rating Correction Content </mat-tab>
+      <mat-tab label="Reference Set"> Reference Set Content </mat-tab>
+      <mat-tab label="Statistical Parameter">
+        Statistical Parameter Content
+      </mat-tab>
+      <mat-tab label="Alarm Rule"> Alarm Rule Content </mat-tab>
+    </mat-tab-group>
+  </mat-grid-tile>
+
+  <mat-grid-tile colspan="1">
+    <mat-accordion>
+      <!-- #docregion basic-panel -->
+      <!-- #docregion hide-toggle -->
+      <mat-expansion-panel hideToggle>
+        <!-- #enddocregion hide-toggle -->
+        <mat-expansion-panel-header>
+          <mat-panel-title> Trend Plot lives here </mat-panel-title>
+          <mat-panel-description> Trend Plot Content </mat-panel-description>
+        </mat-expansion-panel-header>
+        <p>Trend Plot Preview.</p>
+      </mat-expansion-panel>
+      <!-- #enddocregion basic-panel -->
+    </mat-accordion>
+  </mat-grid-tile>
+</mat-grid-list>
+
+<!-- Copyright 2022 Google LLC. All Rights Reserved.
+    Use of this source code is governed by an MIT-style license that
+    can be found in the LICENSE file at http://angular.io/license -->
